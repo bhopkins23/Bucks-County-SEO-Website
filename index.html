@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' fonts.googleapis.com; font-src 'self' fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self';">
+    <meta name="description" content="Bucks County's #1 Local SEO Expert - Get Found By Your Neighbors. Premier Local SEO services for Bucks County businesses. Dominate Google Search Results with proven local SEO strategies.">
+    <meta name="keywords" content="Local SEO Bucks County PA, SEO services Bucks County, Bucks County SEO expert, local search optimization">
+    <title>Bucks County's #1 Local SEO Expert | Get Found By Your Neighbors</title>
+    
+    <!-- Preconnect to external resources for faster loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Preload LCP image for fastest loading -->
+    <link rel="preload" href="local-seo-hero-banner.svg" as="image" type="image/svg+xml">
+    
+    <!-- Remove preload to fix loading issue -->
+    
+    <!-- Critical CSS for LCP element (hero section) -->
+    <style>
+        .hero {
+            background: linear-gradient(rgba(26, 54, 93, 0.8), rgba(45, 55, 72, 0.8)), url('local-seo-hero-banner.svg') center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            color: white;
+            padding: 80px 20px;
+            text-align: center;
+            position: relative;
+            min-height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .hero-content {
+            max-width: 800px;
+            margin: 0 auto;
+            z-index: 2;
+            position: relative;
+            background: rgba(0, 0, 0, 0.4);
+            padding: 40px;
+            border-radius: 15px;
+        }
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            font-weight: bold;
+        }
+        .hero h2 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            color: #4299e1;
+            font-weight: normal;
+        }
+        .hero p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+        main {
+            margin-top: 80px;
+        }
+        /* Critical navigation styles */
+        .navbar {
+            background-color: #1a365d;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            height: 80px;
+        }
+        .nav-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 100%;
+        }
+        .nav-logo .logo {
+            height: 90px;
+            width: 400px;
+            object-fit: contain;
+        }
+        /* Critical button styles */
+        .cta-buttons {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .btn-primary, .btn-secondary {
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+        .btn-primary {
+            background-color: #4299e1;
+            color: white;
+            border: 2px solid #4299e1;
+        }
+        .btn-secondary {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+        /* Font optimization */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            font-display: swap;
+        }
+        /* Prevent invisible text during font load */
+        .hero h1, .hero h2, .hero p {
+            font-display: swap;
+        }
+        /* Critical mobile menu styles */
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            padding: 8px;
+            z-index: 1001;
+        }
+        .hamburger-line {
+            width: 28px;
+            height: 4px;
+            background-color: #ffffff;
+            border-radius: 2px;
+            display: block;
+            margin: 4px 0;
+        }
+        @media (max-width: 768px) {
+            .mobile-menu-toggle {
+                display: flex;
+                flex-direction: column;
+            }
+            .hero h1 {
+                font-size: 2rem;
+            }
+            .hero-content {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+    
+    <!-- Non-blocking CSS loading -->
+    <link rel="preload" href="styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="styles.css"></noscript>
+    
+    <!-- Ensure fonts load without blocking render -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
+    
+    <!-- Favicon for professional appearance -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌟</text></svg>">
+    
+    <!-- Open Graph tags for social sharing -->
+    <meta property="og:title" content="Bucks County's #1 Local SEO Expert | Get Found By Your Neighbors">
+    <meta property="og:description" content="Premier Local SEO services for Bucks County businesses. Dominate Google Search Results with proven local SEO strategies.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://bhopkins23.github.io/Bucks-County-SEO-Website/">
+    <meta property="og:image" content="https://bhopkins23.github.io/Bucks-County-SEO-Website/company-logo.svg">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Bucks County's #1 Local SEO Expert | Get Found By Your Neighbors">
+    <meta name="twitter:description" content="Premier Local SEO services for Bucks County businesses. Dominate Google Search Results with proven local SEO strategies.">
+    <meta name="twitter:image" content="https://bhopkins23.github.io/Bucks-County-SEO-Website/company-logo.svg">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://bhopkins23.github.io/Bucks-County-SEO-Website/">
+    
+    <!-- DNS prefetch for performance -->
+    <link rel="dns-prefetch" href="//www.google-analytics.com">
+    <link rel="dns-prefetch" href="//www.googletagmanager.com">
+    <!-- Updated: 2025-08-20 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": ["LocalBusiness", "Organization", "SEOAgency"],
+        "name": "Bucks County SEO Expert",
+        "legalName": "Bucks County SEO Expert LLC",
+        "description": "Bucks County's Leading Local SEO Expert - Dominate Google Search Results. Professional Local SEO services for Bucks County businesses. Proven results across Doylestown, Newtown, Warrington & More.",
+        "url": "https://bhopkins23.github.io/Bucks-County-SEO-Website/",
+        "telephone": "+1-215-555-0123",
+        "email": "info@buckscountyseoexpert.com",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "123 Business Center Drive",
+            "addressLocality": "Doylestown",
+            "addressRegion": "PA",
+            "postalCode": "18901",
+            "addressCountry": "US"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 40.3101,
+            "longitude": -75.1327
+        },
+        "openingHours": "Mo-Fr 08:00-18:00",
+        "sameAs": [
+            "https://www.facebook.com/buckscountyseoexpert",
+            "https://www.linkedin.com/company/buckscountyseoexpert",
+            "https://twitter.com/buckscountyseo"
+        ],
+        "serviceArea": [
+            {
+                "@type": "City",
+                "name": "Newtown",
+                "containedInPlace": {
+                    "@type": "State",
+                    "name": "Pennsylvania"
+                }
+            },
+            {
+                "@type": "AdministrativeArea",
+                "name": "Bucks County",
+                "containedInPlace": {
+                    "@type": "State", 
+                    "name": "Pennsylvania"
+                }
+            }
+        ],
+        "hasOfferCatalog": {
+            "@type": "OfferCatalog",
+            "name": "Digital Marketing Services",
+            "itemListElement": [
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Local SEO Services",
+                        "description": "Local search engine optimization for Bucks County businesses"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Small Business SEO",
+                        "description": "SEO services tailored for small businesses in Bucks County"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Google Business Profile Optimization",
+                        "description": "Google Business Profile setup and optimization services"
+                    }
+                },
+                {
+                    "@type": "Offer",
+                    "itemOffered": {
+                        "@type": "Service",
+                        "name": "Website Optimization",
+                        "description": "Website optimization and performance improvement services"
+                    }
+                }
+            ]
+        },
+        "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "5.0",
+            "reviewCount": "47"
+        },
+        "priceRange": "$$"
+    }
+    </script>
+    
+    <!-- FAQ Schema for Rich Snippets -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What digital marketing services do you offer in Bucks County?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "First Light Marketing offers comprehensive digital marketing services including Local SEO, Small Business SEO, Google Business Profile optimization, website optimization, social media marketing, and search engine marketing for businesses throughout Bucks County PA."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do you provide SEO services in Newtown PA?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes! We specialize in SEO services for Newtown PA businesses. Our local SEO strategies help Newtown businesses dominate local search results and attract more customers from the surrounding Bucks County area."
+                }
+            },
+            {
+                "@type": "Question", 
+                "name": "How long does it take to see SEO results for my Bucks County business?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Most Bucks County businesses start seeing SEO improvements within 3-6 months, with significant ranking improvements typically occurring within 6-12 months. Local SEO results often appear faster, sometimes within 2-3 months for Google Business Profile optimization."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What makes First Light Marketing the best marketing company in Bucks County?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Our deep local market knowledge, proven track record with Bucks County businesses, comprehensive service offerings, and personalized approach make us the top choice. We understand the unique challenges and opportunities in markets from Newtown to Doylestown."
+                }
+            }
+        ]
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <a href="./">
+                        <img src="horizontal-website-logo-white.png" alt="Bucks County SEO Expert" class="logo" width="400" height="90">
+                    </a>
+                    <p class="tagline">Bucks County's Leading Local SEO Expert</p>
+                </div>
+                <button class="mobile-menu-toggle" aria-label="Toggle mobile menu">
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                    <span class="hamburger-line"></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="#home">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#services">Services ▼</a>
+                        <ul class="dropdown-content">
+                            <li><a href="local-seo-services/">Local SEO</a></li>
+                            <li><a href="small-business-seo/">Small Business SEO</a></li>
+                            <li><a href="website-optimization/">Website Optimization</a></li>
+                            <li><a href="google-business-profile-optimization/">Google Business Profile</a></li>
+                            <li><a href="local-citation-building-bucks-county/">Local Citation Building</a></li>
+                            <li><a href="local-content-marketing-bucks-county/">Local Content Marketing</a></li>
+                            <li><a href="online-reputation-management-bucks-county/">Online Reputation Management</a></li>
+                            <li><a href="local-seo-audit-bucks-county/">Local SEO Audit</a></li>
+                            <li><a href="social-media-marketing/">Social Media Marketing</a></li>
+                            <li><a href="digital-marketing-services/">Digital Marketing</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#support">About & Support ▼</a>
+                        <ul class="dropdown-content">
+                            <li><a href="about-bucks-county-seo-expert/">About Us</a></li>
+                            <li><a href="local-seo-pricing-bucks-county/">Pricing</a></li>
+                            <li><a href="contact-bucks-county-seo/">Contact</a></li>
+                            <li><a href="local-seo-faq-bucks-county/">FAQ</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#content">Content Hub ▼</a>
+                        <ul class="dropdown-content">
+                            <li><a href="bucks-county-business-insights/">Business Insights Blog</a></li>
+                            <li><a href="bucks-county-seo-case-studies/">SEO Case Studies</a></li>
+                            <li><a href="local-seo-resources/">Free Resources</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#locations">Locations ▼</a>
+                        <ul class="dropdown-content">
+                            <li><a href="seo-services-newtown-pa/">Newtown PA</a></li>
+                            <li><a href="seo-services-bucks-county/">Bucks County</a></li>
+                            <li><a href="seo-services-yardley-pa/">Yardley PA</a></li>
+                            <li><a href="seo-services-langhorne-pa/">Langhorne PA</a></li>
+                            <li><a href="seo-services-doylestown-pa/">Doylestown PA</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <!-- LCP image for discovery and prioritization -->
+            <img src="local-seo-hero-banner.svg" alt="Local SEO services hero banner - Digital marketing illustration showing business growth in Bucks County PA" fetchpriority="high" style="position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none;">
+            <div class="hero-content">
+                <h1>Bucks County's Leading Local SEO Expert - Dominate Google Search Results</h1>
+                <h2>Why Local Businesses Choose Our Bucks County SEO Services</h2>
+                <h3>Proven Results Across Doylestown, Newtown, Warrington & More</h3>
+                <h2>Our Local SEO Process That Gets Results</h2>
+                <h3>Step 1: Local Market Analysis</h3>
+                <h3>Step 2: Google Business Profile Optimization</h3>
+                <h3>Step 3: Local Citation Building</h3>
+                <h3>Step 4: Content Strategy & Implementation</h3>
+                <h2>Success Stories from Bucks County Businesses</h2>
+                <h2>Ready to Dominate Local Search in Bucks County?</h2>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn-primary">Get Free Local SEO Audit</a>
+                    <a href="local-seo-services-bucks-county/" class="btn-secondary">Our Local SEO Process</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-overview">
+            <div class="container">
+                <h2>Comprehensive Digital Marketing Services in Bucks County</h2>
+                <p>Our <strong>marketing company in Bucks County</strong> offers a full suite of digital marketing services designed to help local businesses dominate their markets and achieve sustainable growth.</p>
+                
+                <div class="services-grid">
+                    <div class="service-card">
+                        <img src="local-seo-icon.svg" alt="Local SEO Services Icon" class="service-icon">
+                        <h3>Local SEO Services</h3>
+                        <p>Dominate local search results in Newtown PA and Bucks County with our proven local SEO strategies.</p>
+                        <a href="local-seo-services/">Learn More →</a>
+                    </div>
+                    
+                    <div class="service-card">
+                        <img src="small-business-seo-icon.svg" alt="Small Business SEO Icon" class="service-icon">
+                        <h3>Small Business SEO</h3>
+                        <p>Tailored SEO solutions specifically designed for small businesses throughout Bucks County.</p>
+                        <a href="small-business-seo/">Learn More →</a>
+                    </div>
+                    
+                    <div class="service-card">
+                        <img src="website-optimization-icon.svg" alt="Website Optimization Icon" class="service-icon">
+                        <h3>Website Optimization</h3>
+                        <p>Improve your website's performance and search rankings with our comprehensive optimization services.</p>
+                        <a href="website-optimization/">Learn More →</a>
+                    </div>
+                    
+                    <div class="service-card">
+                        <img src="google-business-profile-icon.svg" alt="Google Business Profile Icon" class="service-icon">
+                        <h3>Google Business Profile</h3>
+                        <p>Maximize your local visibility with professional Google Business Profile optimization.</p>
+                        <a href="google-business-profile-optimization/">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="locations-served">
+            <div class="container">
+                <h2>Serving Businesses Throughout Bucks County, PA</h2>
+                <p>As the premier <strong>digital marketing company in Bucks County</strong>, we proudly serve businesses across the region with specialized local knowledge and expertise.</p>
+                
+                <div class="locations-with-image">
+                    <div class="locations-image">
+                        <img src="bucks-county-areas-map.svg" alt="Bucks County Service Areas Map - Newtown, Yardley, Doylestown, Langhorne PA" class="areas-map" loading="lazy" width="500" height="400">
+                    </div>
+                    <div class="locations-grid">
+                    <div class="location-card">
+                        <h3>Newtown PA</h3>
+                        <p>Specialized <strong>digital marketing services in Newtown PA</strong> helping local businesses thrive in this vibrant suburban community.</p>
+                        <a href="seo-services-newtown-pa/">SEO Services Newtown PA →</a>
+                    </div>
+                    
+                    <div class="location-card">
+                        <h3>Bucks County</h3>
+                        <p>County-wide marketing expertise serving businesses from Doylestown to Levittown and everywhere in between.</p>
+                        <a href="seo-services-bucks-county/">SEO Services Bucks County →</a>
+                    </div>
+                    
+                    <div class="location-card">
+                        <h3>Yardley PA</h3>
+                        <p>Strategic marketing solutions for Yardley businesses looking to expand their reach and customer base.</p>
+                        <a href="seo-services-yardley-pa/">SEO Services Yardley PA →</a>
+                    </div>
+                    
+                    <div class="location-card">
+                        <h3>Doylestown PA</h3>
+                        <p>County seat marketing expertise helping Doylestown businesses dominate their local markets.</p>
+                        <a href="seo-services-doylestown-pa/">SEO Services Doylestown PA →</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <div class="container">
+                <div class="about-with-image">
+                    <div class="about-content">
+                        <h2>About First Light Marketing</h2>
+                        <p>As <strong>Bucks County's premier digital marketing company</strong>, First Light Marketing brings years of expertise and local market knowledge to help businesses thrive in the digital landscape.</p>
+                        
+                        <p>Our team of certified SEO specialists, digital marketing strategists, and local market experts understands what it takes to succeed in competitive markets like <strong>Newtown PA</strong>, <strong>Doylestown</strong>, <strong>Yardley</strong>, and throughout <strong>Bucks County</strong>.</p>
+                        
+                        <div class="about-highlights">
+                            <div class="highlight">
+                                <h4>Local Expertise</h4>
+                                <p>Deep understanding of Bucks County business landscape and consumer behavior.</p>
+                            </div>
+                            <div class="highlight">
+                                <h4>Proven Success</h4>
+                                <p>Helping local businesses achieve measurable growth through strategic digital marketing.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="about-image">
+                        <picture>
+                            <source type="image/webp" srcset="about-team-photo.webp" media="(max-width: 768px)" width="300" height="225">
+                            <source type="image/webp" srcset="about-team-photo.webp" width="400" height="300">
+                            <img src="about-team-photo.png" alt="First Light Marketing Team - Digital Marketing Experts Bucks County PA" class="team-photo" loading="lazy" width="400" height="300">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="why-choose-us">
+            <div class="container">
+                <h2>Why We're the Best Marketing Company in Bucks County</h2>
+                
+                <div class="features-grid">
+                    <div class="feature">
+                        <img src="local-expertise-icon.svg" alt="Local Market Expertise Icon" class="feature-icon">
+                        <h3>Local Market Expertise</h3>
+                        <p>Deep understanding of Bucks County and Newtown PA business landscape, consumer behavior, and market dynamics.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <img src="proven-results-icon.svg" alt="Proven Results Icon" class="feature-icon">
+                        <h3>Proven Results</h3>
+                        <p>Track record of helping local businesses achieve top search rankings and increased revenue through strategic online marketing.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <img src="comprehensive-services-icon.svg" alt="Comprehensive Services Icon" class="feature-icon">
+                        <h3>Comprehensive Services</h3>
+                        <p>Full-service digital marketing agency offering everything from SEO to social media marketing under one roof.</p>
+                    </div>
+                    
+                    <div class="feature">
+                        <img src="personalized-approach-icon.svg" alt="Personalized Approach Icon" class="feature-icon">
+                        <h3>Personalized Approach</h3>
+                        <p>Customized marketing strategies tailored to each client's unique business goals and target audience.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <h2>Ready to Grow Your Business?</h2>
+                <p>Contact the <strong>best marketing company in Bucks County</strong> today for a free consultation. Let's discuss how our <strong>digital marketing expertise</strong> can help your <strong>Newtown PA</strong> or <strong>Bucks County</strong> business achieve its growth goals.</p>
+                
+                <div class="contact-info">
+                    <div class="contact-method">
+                        <img src="phone-icon.svg" alt="Phone Icon" class="contact-icon">
+                        <h3>Phone</h3>
+                        <p>Info@FirstLightDigitalMarketing.com</p>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <img src="email-icon.svg" alt="Email Icon" class="contact-icon">
+                        <h3>Email</h3>
+                        <p>info@firstlightdigitalmarketing.com</p>
+                    </div>
+                    
+                    <div class="contact-method">
+                        <img src="office-location-icon.svg" alt="Office Location Icon" class="contact-icon">
+                        <h3>Office</h3>
+                        <p>123 Main Street<br>Newtown, PA 18940</p>
+                    </div>
+                </div>
+                
+                <form class="contact-form" action="https://formspree.io/f/xeozdjjy" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="tel" name="phone" placeholder="Your Phone">
+                    <select name="service" required>
+                        <option value="">Select Service Interest</option>
+                        <option value="local-seo">Local SEO Services</option>
+                        <option value="small-business-seo">Small Business SEO</option>
+                        <option value="website-optimization">Website Optimization</option>
+                        <option value="google-business">Google Business Profile</option>
+                        <option value="social-media">Social Media Marketing</option>
+                        <option value="digital-marketing">Full Digital Marketing</option>
+                    </select>
+                    <textarea name="message" placeholder="Tell us about your business and goals" rows="4"></textarea>
+                    <input type="hidden" name="_subject" value="New Contact Form Submission from Website">
+                    <input type="hidden" name="_next" value="https://www.firstlightdigitalmarketing.com/thank-you.html">
+                    <button type="submit">Get Free Consultation</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="local-seo-services/">Local SEO Services</a></li>
+                        <li><a href="small-business-seo/">Small Business SEO</a></li>
+                        <li><a href="website-optimization/">Website Optimization</a></li>
+                        <li><a href="google-business-profile-optimization/">Google Business Profile</a></li>
+                        <li><a href="local-citation-building-bucks-county/">Local Citation Building</a></li>
+                        <li><a href="online-reputation-management-bucks-county/">Online Reputation Management</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Locations</h3>
+                    <ul>
+                        <li><a href="seo-services-newtown-pa/">SEO Services Newtown PA</a></li>
+                        <li><a href="seo-services-bucks-county/">SEO Services Bucks County</a></li>
+                        <li><a href="seo-services-yardley-pa/">SEO Services Yardley PA</a></li>
+                        <li><a href="seo-services-langhorne-pa/">SEO Services Langhorne PA</a></li>
+                        <li><a href="seo-services-doylestown-pa/">SEO Services Doylestown PA</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>About & Support</h3>
+                    <ul>
+                        <li><a href="about-bucks-county-seo-expert/">About Us</a></li>
+                        <li><a href="local-seo-pricing-bucks-county/">Pricing</a></li>
+                        <li><a href="contact-bucks-county-seo/">Contact</a></li>
+                        <li><a href="local-seo-faq-bucks-county/">FAQ</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>Bucks County SEO Expert<br>
+                    Doylestown, PA 18901<br>
+                    info@buckscountyseoexpert.com</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Bucks County SEO Expert. All rights reserved. | Local SEO Services Bucks County PA | Digital Marketing Company</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Ultra-minimal inline JavaScript -->
+    <script>
+        // Critical mobile menu only
+        window.toggleMobileMenu = function() {
+            var m = document.querySelector('.nav-menu');
+            var b = document.querySelector('.mobile-menu-toggle');
+            if (m) {
+                m.classList.toggle('active');
+                if (b) b.classList.toggle('active');
+                document.body.classList.toggle('mobile-menu-open');
+            }
+        };
+    </script>
+    
+    <!-- Load all JavaScript with maximum deferral -->
+    <script>
+        // Ultra-aggressive lazy loading strategy
+        function loadJS() {
+            if (window.jsLoaded) return;
+            window.jsLoaded = true;
+            
+            const script = document.createElement('script');
+            script.src = 'script.js';
+            script.async = true;
+            document.head.appendChild(script);
+        }
+        
+        // Multiple trigger strategies for maximum performance
+        if (document.readyState === 'complete') {
+            // Page already loaded
+            setTimeout(loadJS, 0);
+        } else {
+            // Load on first meaningful interaction
+            let loaded = false;
+            function triggerLoad() {
+                if (loaded) return;
+                loaded = true;
+                loadJS();
+            }
+            
+            // Immediate triggers
+            window.addEventListener('load', triggerLoad, { once: true });
+            
+            // User interaction triggers
+            ['click', 'scroll', 'touchstart', 'keydown'].forEach(event => {
+                document.addEventListener(event, triggerLoad, { once: true, passive: true });
+            });
+            
+            // Fallback timer
+            setTimeout(triggerLoad, 3000);
+        }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
