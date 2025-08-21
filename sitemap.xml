@@ -1,298 +1,156 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-<!-- Homepage - Highest Priority -->
+<!-- Homepage -->
 <url>
     <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
 </url>
 
-<!-- Primary Service Pages - High Priority -->
+<!-- Primary Service Pages -->
 <url>
     <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/local-seo-services-bucks-county/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
 </url>
+
 <url>
     <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/google-business-profile-optimization-bucks-county/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
 </url>
+
 <url>
     <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/local-citation-building-bucks-county/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
 </url>
+
 <url>
     <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/local-content-marketing-bucks-county/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
 </url>
+
 <url>
     <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/online-reputation-management-bucks-county/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
 </url>
+
 <url>
     <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/local-seo-audit-bucks-county/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
 </url>
 
-<!-- Industry-Specific Service Pages - High Priority -->
+<!-- Industry-Specific Service Pages -->
 <url>
     <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/healthcare-seo-bucks-county/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
+
 <url>
     <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/law-firm-seo-bucks-county/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
+
 <url>
     <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/restaurant-seo-bucks-county/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
+
 <url>
     <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/home-services-seo-bucks-county/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
+
 <url>
     <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/retail-seo-bucks-county/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
-<!-- Major City Location Pages - High Priority -->
+<!-- Major City Location Pages -->
 <url>
     <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/seo-services-doylestown-pa/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
+
 <url>
     <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/seo-services-newtown-pa/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
+
 <url>
     <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/seo-services-warrington-pa/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
+
 <url>
     <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/seo-services-levittown-pa/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
+
 <url>
     <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/seo-services-langhorne-pa/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
-<!-- Township & Smaller Community Pages -->
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/seo-services-chalfont-pa/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/seo-services-richboro-pa/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/seo-services-furlong-pa/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/seo-services-buckingham-pa/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/seo-services-yardley-pa/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/seo-services-morrisville-pa/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/seo-services-fairless-hills-pa/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/seo-services-penndel-pa/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/seo-services-feasterville-pa/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/seo-services-holland-pa/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/seo-services-ivyland-pa/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/seo-services-washington-crossing-pa/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/seo-services-new-hope-pa/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-</url>
-
-<!-- Problem-Solution Pages -->
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/why-website-not-ranking-bucks-county/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/improve-google-rankings-bucks-county/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/get-found-on-google-bucks-county/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-</url>
-
-<!-- Content Hub & Blog -->
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/bucks-county-business-insights/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.6</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/bucks-county-seo-case-studies/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/local-seo-resources/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/bucks-county-business-insights/seo-guide-bucks-county-businesses/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>quarterly</changefreq>
-    <priority>0.5</priority>
-</url>
-
-<!-- Support & Information Pages -->
+<!-- Support Pages -->
 <url>
     <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/about-bucks-county-seo-expert/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>quarterly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/local-seo-pricing-bucks-county/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/contact-bucks-county-seo/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/local-seo-faq-bucks-county/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0.7</priority>
 </url>
 
-<!-- Legacy Pages (existing) -->
 <url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/seo-services-bucks-county/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/local-seo-pricing-bucks-county/</loc>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
 </url>
+
 <url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/local-seo-services/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/contact-bucks-county-seo/</loc>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.7</priority>
 </url>
+
 <url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/small-business-seo/</loc>
-    <lastmod>2025-08-20</lastmod>
+    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/local-seo-faq-bucks-county/</loc>
+    <lastmod>2024-08-20</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/website-optimization/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-</url>
-<url>
-    <loc>https://bhopkins23.github.io/Bucks-County-SEO-Website/google-business-profile-optimization/</loc>
-    <lastmod>2025-08-20</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.6</priority>
 </url>
 
 </urlset>

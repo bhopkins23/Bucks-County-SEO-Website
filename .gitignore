@@ -30,3 +30,12 @@ Videos/
 
 # Screaming Frog SEO Spider
 .ScreamingFrogSEOSpider/
+
+# Windows system files
+NTUSER.DAT
+NTUSER.DAT.LOG*
+ntuser.dat
+ntuser.ini
+hiberfil.sys
+pagefile.sys
+swapfile.sys
