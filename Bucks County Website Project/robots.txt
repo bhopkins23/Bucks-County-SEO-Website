@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://bhopkins23.github.io/Bucks-County-SEO-Website/sitemap.xml
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1

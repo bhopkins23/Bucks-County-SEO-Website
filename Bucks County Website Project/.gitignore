@@ -1,0 +1,41 @@
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+# User-specific folders
+AppData/
+Application Data/
+Cookies/
+"Local Settings"/
+"My Documents"/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+"Start Menu"/
+Templates/
+Videos/
+"3D Objects"/
+
+# Claude files
+.claude/
+.claude.json*
+
+# Screaming Frog SEO Spider
+.ScreamingFrogSEOSpider/
+
+# Windows system files
+NTUSER.DAT
+NTUSER.DAT.LOG*
+ntuser.dat
+ntuser.ini
+hiberfil.sys
+pagefile.sys
+swapfile.sys
